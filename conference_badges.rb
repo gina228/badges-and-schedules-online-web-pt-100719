@@ -12,6 +12,7 @@ def assign_rooms
   room = 0 
   attendees.collect do |name|
     room +=1
+    "Hello, #{name}! "
 end 
 
 def printer
