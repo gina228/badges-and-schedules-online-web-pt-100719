@@ -9,6 +9,9 @@ def batch_badge_creator(attendees)
 end
 
 def assign_rooms
+  room = 0 
+  attendees.collect do |name|
+    
 end 
 
 def printer
